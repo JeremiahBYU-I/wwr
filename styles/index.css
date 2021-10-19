@@ -1,3 +1,26 @@
+.home-title{
+    font-family: 'Goudy Old Style', Garamond, 'Big Caslon', Times 'New Roman', serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.msg{
+    background-color: #6f7364;
+    line-height: 1.5em;
+}
+
+body {
+    font-family: 'Cambria', Georgia, serifs;
+    background-color: #fcfbfb;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+   
+}
+h2 {
+    margin: 0;
+}
+
 #content
 {
     max-width:  1600px;
@@ -22,12 +45,14 @@ nav a:hover {
 }    
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 nav a {
     text-align: center;
     color: black;
     text-decoration: none;
     text-align: center;
+    padding: 35px;
 }    
 main section{
     text-align: center;
@@ -39,9 +64,12 @@ main section{
     text-align: center;
 }
 .book, .join {
+    border-radius: 5px;
     text-align: center;
     background-color:white;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
 }
 footer a{
     text-align: center;
@@ -54,9 +82,31 @@ footer a{
     background-color:pink
 }
 .msg{
-    background-color:#fcd5ce
+    line-height: 1.5em;
+    background-color: #6f7364;
+    padding: 35px
 }
 footer{
-    background-color:#FAE1DD
+    margin-top: 200px;
+    padding: 25px 50px;
+    background-color:#FAE1Dd
 }
-        
+#logo_link{
+    padding-top: 5px;
+}
+.msg p{
+    padding-bottom: 15px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid black;
+}
+main section image{
+    box-sizing: border-box;
+}
+    
