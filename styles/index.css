@@ -8,17 +8,17 @@
     grid-template-columns: repeat(10,1fr)
 }
 .msg{
-    background-color: #6f7364;
+    background-color: #fdd557;
     line-height: 1.5em;
     grid-column: 6/10;
     grid-row: 6/7;
     padding: 35px;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #fdd557;
 }
 
 body {
     background-color: #fcfbfb;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -43,7 +43,7 @@ body {
     background-color: #fcfbfb; 
 }
 header {
-    background-color: #6f7364;
+    background-color: #fdd557;
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -77,7 +77,7 @@ main section{
 .book, .join {
     border-radius: 5px;
     text-align: center;
-    background-color:#6f7364;
+    background-color:#f49460;
     text-decoration: none;
     padding: 15px 30px;
     margin-top: 50px;
@@ -93,14 +93,14 @@ footer a{
     background-color:whitesmoke
 }
 .msg {
-    background-color: #6f7364;
+    background-color: #f49460;
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #f49460;
 }
 .footer {
-    background-color: #6f7364;
+    background-color: #fdd557;
     padding: 25px 50px;
     margin-top: 200px; 
     display: flex;
@@ -123,13 +123,10 @@ footer .social img{
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
 }
-.card-img  {
+.card-img {
+    border: 10px solid #fdd557;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
-    border: 10px solid #d9c2a3;
-}
-main section image{
-    box-sizing: border-box;
+    box-shadow: 5px 5px 10px #fdd557;
 }
 nav {
     display: flex;
@@ -152,7 +149,7 @@ nav {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
-    color: black;
+    color: #f49460;
 }
 .rivers-card {
     grid-column: 2/4;
@@ -172,7 +169,7 @@ nav {
 .mountains {
     grid-column: 2/7;
     grid-row: 5/8;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #fdd557;
 }      
 .card-img:hover{
     opacity: .6;
